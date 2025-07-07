@@ -1,8 +1,8 @@
-# Geocoding Worker Service
+# Geocoding Worker Service 🗺️
 
-A Python service for geocoding addresses, designed for integration with real estate auction data pipelines.
+A Python service for geocoding addresses, designed for integration with real estate data pipelines.
 
-## Setup
+## 🚀 Setup
 
 ```bash
 python3 -m venv .venv
@@ -10,7 +10,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 1. Copy `.env.example` to `.env`:
    ```bash
@@ -18,7 +18,22 @@ pip install -r requirements.txt
    ```
 2. Edit `.env` and fill in your API token and folder paths as needed.
 
-## Usage
+## 📥 Input Fields
+
+To generate longitude and latitude, provide the following fields in your data:
+
+- `endereco` (address) 🏠 **[required]**
+- `localidade` (city/locality) 🏙️ **[required]**
+- `estado` (state) 🗺️ **[required]**
+
+**Optional but recommended:**
+- `cep` (postal code) 🏷️
+- `numero` (street number) 🔢
+- `complemento` (address complement) 📝
+
+The more details you provide, the more accurate the geocoding!
+
+## ▶️ Usage
 
 To start the worker:
 
@@ -30,4 +45,4 @@ If you later expose a script entrypoint (e.g., via `setup.py` or `pyproject.toml
 
 ```bash
 geocode
-```# service-geocoding-worker
+```
