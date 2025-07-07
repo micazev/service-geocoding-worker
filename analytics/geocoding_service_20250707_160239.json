@@ -1,0 +1,44 @@
+{
+  "scraper_name": "geocoding_service",
+  "timestamp": {
+    "start": "2025-07-07T16:02:34.481354",
+    "end": "2025-07-07T16:02:39.208036",
+    "duration_seconds": 4.73
+  },
+  "data_metrics": {
+    "total_items_identified": 24,
+    "successfully_extracted": 20,
+    "failed_extractions": 4,
+    "success_rate": 83.33
+  },
+  "performance_metrics": {
+    "average_time_per_item": 0.24,
+    "requests_count": 24
+  },
+  "errors": [
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/VAGA%20DE%20GARAGEM%20DE%20NO.%202%2C%20ATUAL%20NO.%2012%2C%20LOCALIZADA%20NO%20SUB-SOLO%2C%20INTEGRANTE%20DO%20CO...%2C%20CAMPOS%20DO%20JORDAO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-07T16:02:34.750895"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/CENTRO%20NOVO%20DO%20MARANHAO-MA.%20BAIRRO%20PINHEIRO.%20RUA%20DO%20COMERCIO%2C%20974%20LT.%2025%20DA%20QD....%2C%20CENTRO%20NOVO%20DO%20MARANHAO%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-07T16:02:38.129017"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/CENTRO%20NOVO%20DO%20MARANHAO-MA.%20BAIRRO%20PICARRA.%20TRAVESSA%20DA%20IGREJA%2C%20309%20LT.%2004%20DA%20Q...%2C%20CENTRO%20NOVO%20DO%20MARANHAO%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-07T16:02:38.374036"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/SANTA%20HELENA-MA.%20VILA%20ANTONIO%20WEBA.%20RUA%2002%2C%20N%2088%20SETOR%2004%2C%20LT.%2096%20DA%20QD.%2007%20.%20...%2C%20SANTA%20HELENA%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-07T16:02:39.207328"
+    }
+  ]
+}

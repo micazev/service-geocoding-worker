@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 
 from config import MAPBOX_TOKEN, INPUT_DIR, LOG_LEVEL
-from geocoding_worker.service import LocationService
+from service import LocationService
 from utils.analytics_utils import ScraperAnalytics
 
 

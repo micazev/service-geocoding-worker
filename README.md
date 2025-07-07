@@ -26,11 +26,12 @@ To generate longitude and latitude, provide the following fields in your data:
 - `localidade` (city/locality) 🏙️ **[required]**
 - `estado` (state) 🗺️ **[required]**
 
-**Optional but recommended:**
+**Optional recommended ideas for address fields:**
 - `cep` (postal code) 🏷️
 - `numero` (street number) 🔢
 - `complemento` (address complement) 📝
 
+They are not included in this service, but you can use them to improve the geocoding results.
 The more details you provide, the more accurate the geocoding!
 
 ## ▶️ Usage
