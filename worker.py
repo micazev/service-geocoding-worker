@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import logging
+from pathlib import Path
 
 from config import MAPBOX_TOKEN, INPUT_DIR, PROCESSED_DIR, LOG_LEVEL
 from service import LocationService
@@ -64,12 +65,12 @@ def main():
             logger.info(f"Updated file: {path.name}")
 
         # Move processed file to processed directory
-    dest = PROCESSED_DIR / path.name
-    try:
-        path.rename(dest)
-        logger.info(f"Moved {path.name} to {dest}")
-    except Exception as e:
-        logger.error(f"Failed to move {path.name}: {e}")
+        dest = PROCESSED_DIR / path.name
+        try:
+            path.rename(dest)
+            logger.info(f"Moved {path.name} to {dest}")
+        except Exception as e:
+            logger.error(f"Failed to move {path.name}: {e}")
 
     svc.analytics.end_scraping()
 

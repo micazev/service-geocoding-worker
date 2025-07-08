@@ -1,0 +1,1502 @@
+{
+  "scraper_name": "geocoding_service",
+  "timestamp": {
+    "start": "2025-07-08T12:20:37.281097",
+    "end": "2025-07-08T12:23:13.320083",
+    "duration_seconds": 156.04
+  },
+  "data_metrics": {
+    "total_items_identified": 860,
+    "successfully_extracted": 592,
+    "failed_extractions": 248,
+    "success_rate": 68.84
+  },
+  "performance_metrics": {
+    "average_time_per_item": 0.26,
+    "requests_count": 840
+  },
+  "errors": [
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RODOVIA%20JOSE%20FREGONEZI%20-%20SP%20328%2CN.%20985%20APTO.%2034%20BL%20A%2C%20T%2002%2C%20BONFIM%20PAULISTA%2C%20RIBEIRAO%20PRETO%20-%20LAR%20FRANCA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:38.162400"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROJETADA%2010%2CN.%202503%20LT%2001%2C%20QD%2007%2C%20JD%20DAS%20PALMEIRAS%203%2C%20BADY%20BASSITT%20-%20JARDIM%20DAS%20PALMEIRAS%203%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:39.023715"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SAO%20JERONIMO%2CN.%202750%20APTO.%20103%20BL%2002%2C%20VG%2046%2C%20FAZ%20SAO%20DOMINGOS%2C%20AMERICANA%20-%20CONDOMINIO%20RESIDENCIAL%20PARQUE%20ASPEN%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:40.067682"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20REGINA%20SELI%20FORCHETTI%20SPINARDI%2CN.%20249%20LT%2060%2C%20QD%20V%2C%20BOA%20VISTA%2C%20MONTE%20MOR%20-%20PARQUE%20RESIDENCIAL%20SAO%20CLEMENTE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:40.768746"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20CARVALHO%20RUFINO%2CN.%201400%20APTO.%2011%20BL%20C%2C%20T%2002%2C%20BONFIM%20PAULISTA%2C%20RIBEIRAO%20PRETO%20-%20VITTA%20JARDIM%20DOS%20FLAMBOYANTS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:41.298023"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROFESSOR%20MAURICIO%20FRANCISCO%20CEOLIN%2CN.%20210%20APTO.%20404%20BL%2010%2C%20RES%20PQ%20DOS%20CANTOS%2C%20CAMPINAS%20-%20PARQUE%20CANTO%20DOS%20BEM%20TE%20VIS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:42.173259"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SAO%20FRANCISCO%2CN.%20101%20APTO.%2014%20BL%2022%2C%20VG%20378%2C%20JUNDIAI%2C%20MOGI%20DAS%20CRUZES%20-%20RES%20NOVA%20BRAS%20CUBAS%20I%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:42.285492"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSE%20TEIXEIRA%20DE%20OLIVEIRA%2CN.%20630%20CS%2094%2C%20TIPO%20B%2C%20VIA%20DE%20CIRCULACAO%20INTERNA%2C%20AGUA%20ESPRAIADA%20CAUCAIA%20DO%20ALTO%20%2C%20COTIA%20-%20COND%20RES%20VILA%20AGUASSAI%20I%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:42.851563"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20CRISTIANO%20ANGELI%2CN.%20765%20APTO.%20115-%20BLOCO%20A%2C%2011O%20ANDAR%2C%20ASSUNCAO%2C%20SAO%20BERNARDO%20DO%20CAMPO%20-%20CONDOMINIO%20PRIORI%20ANGELI%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:42.957988"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PRESIDENTE%20JOAO%20CAFE%20FILHO%2CN.%20100%20APTO.%2055%20T%2004%2C%20VG%20476%2C%20BELA%20VISTA%2C%20SALTO%20-%20COND%20JARDINS%20DOS%20TAPERAS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:43.203748"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LARANJAL%20PAULISTA%2CN.%201155%20APTO.%2022%20BL%2008%2C%20TR%2003%2C%20VG%2072%2C%20CAMPESTRE%2C%20PIRACICABA%20-%20COND%20RES%20VARANDAS%20CAMPESTRE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:44.300271"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROFESSOR%20HASEGAWA%2CN.%20798%20APTO.%2002%20TORRE%20O%2C%20COLONIA%20ZONA%20LESTE%20%2C%20SAO%20PAULO%20-%20COND%20RES%20PLANO%20RESERVA%20DO%20CARMO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:46.940594"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20NILVA%20ZILAH%20SILVATTI%20VIANA%2CN.%20126%20APTO.%2031%20BL%2005%2C%20CONJUNTO%20HABITACIONAL%20JULIO%20DE%20MESQ%2C%20SOROCABA%20-%20RES%20VILA%20DO%20ARVOREDO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:47.325644"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PRESIDENTE%20COSTA%20E%20SILVA%2CN.%20503%20APTO.%20302%20BL%2025%2C%20CONJUNTO%20HABITACIONAL%20NARCISO%20GOMES%2C%20ARARAS%20-%20CONDOMINIO%20RESIDENCIAL%20PARQUE%20ANGRA%20DOS%20REIS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:47.427921"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LUIZ%20CROPANESE%20SPADARO%20JUNIOR%2CN.%20100%20APTO.%20102%20BL%2018%2C%20CONJUNTO%20HABITACIONAL%20SILVIO%20PASSAL%2C%20RIBEIRAO%20PRETO%20-%20PARQUE%20REMANSO%20DO%20BOSQUE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:47.541477"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LUIZ%20CROPANESE%20SPADARO%20JUNIOR%2CN.%20100%20APTO.%20202%20%2C%20VAGA%20NO%20224%2C%20CONJUNTO%20HABITACIONAL%20SILVIO%20PASSAL%2C%20RIBEIRAO%20PRETO%20-%20PARQUE%20REMANSO%20DO%20BOSQUE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:47.652941"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VN%2027%20-%20LUIZ%20HENRIQUE%20SOUKEF%20-%20ANTIGA%20RUA%20PRO%2CN.%20142%20QD%204%2C%20LT%2013%2C%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20BARRETOS%20-%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:47.894421"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VN%2066%20-%20JOSE%20RENATO%20ALVES%20PEREIRA%2CN.%20187%20LT%2041%2C%20QD%2012%2C%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20BARRETOS%20-%20RES%20VIDA%20NOVA%20BARRETOS%20III%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:48.001613"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VN%2068%20-%20EUCLIDES%20TEGAMI%20-%20ANTIGA%20RUA%20PROJETADA%2CN.%20265%20QD%2013%2C%20LT%2033%2C%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20BARRETOS%20-%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:48.117458"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VN%2074%20-%20PAULO%20ROBERTO%20DA%20SILVA%20-%20ANTIGA%20RUA%20PR%2CN.%201273%20QD%2015%2C%20LT%2032%2C%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20BARRETOS%20-%20CONJUNTO%20HABITACIONAL%20VIDA%20NOVA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:48.224495"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20ARMANDO%20SALLES%20DE%20OLIVEIRA%2CN.%201600%20APTO.%2066%206%20AND%20-%20TORRE%20I%2C%20CONJUNTO%20RESIDENCIAL%20IRAI%2C%20SUZANO%20-%20COND%20FLEX%20SUZANO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:48.342522"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20APARECIDA%20FERNANDES%20DE%20JESUS%20DOMINGUES%2CN.%20191%20APTO.%2004%20PAVIMENTO%20TERREO%20DO%20PREDIO%20NO%2017%20-%20TIPO%2C%20GRACA%2C%20COTIA%20-%20CONDOMINIO%20RESIDENCIAL%20VIDA%20PLENA%20COTIA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:48.751332"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20EDUARDO%20ANDREA%20MATARAZZO%2CN.%204875%20APTO.%2003%20TR%2002%2C%20BL%20C%2C%20IPIRANGA%2C%20RIBEIRAO%20PRETO%20-%20VITTA%20VIA%20NORTE%202%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:49.441105"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20TIBURCIO%20DE%20SOUSA%2CN.%201898%20APTO.%2024%20BL%2008%2C%20ITAIM%20PAULISTA%2C%20SAO%20PAULO%20-%20COND%20RES%20ILHA%20DOS%20FLAMINGOS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:50.320137"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SABBADO%20DANGELO%2CN.%20281%20APTO.%20909%20TR%20B%2C%20ITAQUERA%2C%20SAO%20PAULO%20-%20COND%20RES%20PLANO%20JACU%20PESSEGO%20-%20SABBADO%20D%20ANGELO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:50.566302"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20HENRIQUE%20CASELA%2CN.%2054%20APTO.%2013%20BL%20II%2C%20JARDIM%20AMERICA%20DA%20PENHA%2C%20SAO%20PAULO%20-%20COND%20RESIDENCIAL%20DEZ%20TIQUATIRA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:51.399036"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20OSVALDO%20VALLE%20CORDEIRO%2CN.%201240%20APTO.%2034%20TR%2001%2C%20JARDIM%20BRASILIA%20ZONA%20LESTE%20%2C%20SAO%20PAULO%20-%20CONDOMINIO%20RESIDENCIAL%20DEZ%20GAMELINHA%202%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:52.100142"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PEDRA%20BRANCA%20DO%20AMAPARI%2CN.%2016%20APTO.%20T05%20TR%2002%2C%20JARDIM%20DA%20LARANJEIRA%20ZONA%20LESTE%20%2C%20SAO%20PAULO%20-%20RESIDENCIAL%20NOBUO%20MIAMOTO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:52.969628"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20NORTE%20ESQ%20COM%20R%20PLINIO%2CN.%20SN%20LTS%204%205%206%207-F%20QD%2002%2C%20BAURU%20-%20JARDIM%20DAS%20ORQUIDEAS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:53.810712"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20REV.%20PROF.%20HERCULANO%20GOUVEIA%20JUNIOR%2CN.%20450%20APTO.%2071%20TR%2003%2C%20VG%20PCD7%2C%20JARDIM%20DO%20LAGO%2C%20CAMPINAS%20-%20COND%20RES%20TORRES%20DA%20ESPANHA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:54.062344"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BENEDITA%20CARDOSO%20MADUREIRA%20ANTIGA%20RUA%20PROJETA%2CN.%207-125%20APTO.%20503%205O%20PAVIMENTO%2C%204O%20ANDAR%2C%2077%2C%20JARDIM%20ESTRELA%20D%20ALVA%2C%20BAURU%20-%20PARQUE%20BELLAGIO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:54.915682"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20RAIMUNDO%20PEREIRA%20DE%20MAGALHAES%2CN.%202500%20APTO.%201504%20BL%2001%2C%20JARDIM%20IRIS%2C%20SAO%20PAULO%20-%20SPAZIO%20PRAIA%20DA%20ENSEADA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:55.911122"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20RAIMUNDO%20PEREIRA%20DE%20MAGALHAES%2CN.%202500%20APTO.%20806%20VG%20111%2C%20JARDIM%20IRIS%2C%20SAO%20PAULO%20-%20SPAZIO%20SERRA%20DA%20CANTAREIRA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:56.014732"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20JOSE%20ANDRE%20DE%20MORAES%2CN.%201143%20APTO.%20148%20TR%20A%2C%20JARDIM%20MONTE%20ALEGRE%2C%20TABOAO%20DA%20SERRA%20-%20CONDOMINIO%20RESERVA%20DA%20SERRA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:56.995426"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20APARECIDA%20FERNANDES%20DE%20JESUS%2CN.%20583%20APTO.%2011%20BL%2006%2C%20JARDIM%20PETROPOLIS%2C%20COTIA%20-%20NOVA%20ZELANDIA%20COND%201%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:58.028390"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20APARECIDA%20FERNANDES%20DE%20JESUS%20DOMINGUES%2CN.%20191%20APTO.%2021%20PAVIMENTO%20NO%2014%2C%20TIPO%201%2C%20JARDIM%20PETROPOLIS%2C%20COTIA%20-%20CONDOMINIO%20RESIDENCIAL%20VIDA%20PELA%20COTIA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:58.133308"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20APARECIDA%20FERNANDES%20DE%20JESUS%20DOMINGUES%2CN.%20583%20APTO.%2032%20%2C%20JARDIM%20PETROPOLIS%2C%20COTIA%20-%20CONDOMINIO%20NOVA%20ZELANDIA%20COND%201%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:58.380997"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTORA%20APARECIDA%20FERNANDES%20DE%20JESUS%20DOMINGUES%2CN.%20391%20APTO.%2014%20BL%2012%2C%20JARDIM%20PETROPOLIS%2C%20COTIA%20-%20NOVA%20ZELANDIA%20COND%202%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:58.634110"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20ANTONIO%20CENTURIONE%20BOER%2CN.%201518%20APTO.%20802%20%2C%20VG%20N%20169%2C%20JARDIM%20SANTA%20ELIZA%2C%20AMERICANA%20-%20COND%20RES%20CANTO%20DAS%20AGUAS%20I%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:59.451824"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROFESSOR%20ARNALDO%20JOAO%20SEMERARO%2CN.%20415%20APTO.%2087%20TR%2001%2C%20JARDIM%20SANTA%20EMILIA%2C%20SAO%20PAULO%20-%20COM%20RES%20DEZ%20SACOMA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:59.559987"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20GUALTER%20DE%20CARVALHO%2CN.%203500%20APTO.%2033%20CONDOMINIO%20SAFIRA%2C%20BLOCO%20T%2C%20JARDIM%20SANTA%20LUCIA%2C%20SAO%20JOSE%20DO%20RIO%20PRETO%20-%20CONJUNTO%20PARQUE%20RESIDENCIAL%20RENATA%20TARRAF%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:20:59.796845"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20OLGA%20FADEL%20ABARCA%2CN.%20430%20APTO.%2015%20BL%2003%2C%20JARDIM%20SANTA%20TEREZINHA%20ZONA%20LESTE%20%2C%20SAO%20PAULO%20-%20RESIDENCIAL%20SPAZIO%20SAN%20DOMINGOS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:00.515707"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOANA%20DARCY%20DE%20OLIVEIRA%20MACHADO%2CN.%20342%20QD%2009%2C%20LT%2005%2C%20JARDIM%20SAO%20JOSE%2C%20NOVO%20HORIZONTE%20-%20JARDIM%20SAO%20JOSE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:01.188340"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DANILO%20EDUARDO%20RIOS%20RAMOS%2CN.%20911%20APTO.%2011%20%2C%20VAGA%20NO%20246%2C%20JARDIM%20SAO%20JOSE%20II%2C%20SAO%20JOSE%20DOS%20CAMPOS%20-%20RESIDENCIAL%20PARQUE%20TECNOLOGICO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:01.298750"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20CUSTODIO%20PAIVA%2CN.%20205%20APTO.%2032%20BL%2006%20-%203%20PAV%2C%20JARDIM%20SAO%20PAULO%20ZONA%20LESTE%20%2C%20SAO%20PAULO%20-%20RES%20MIRANTE%20GUAIANAZES%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:01.398697"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAQUIM%20SOUZA%20MIRANDA%2CN.%20135%20APTO.%2012%20BL%20C%2C%20JARDIM%20VALE%20DA%20LUA%2C%20TATUI%20-%20CONDOMINIO%20RESIDENCIAL%20VILLAGIO%20DAS%20FLORES%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:02.229570"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SAO%20JERONIMO%2CN.%202750%20APTO.%20301%20BL%2017%2C%20VG%20698%2C%20MORADA%20DO%20SOL%2C%20AMERICANA%20-%20CONDOMINIO%20RESIDENCIAL%20PARQUE%20ASPEN%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:03.538907"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DAS%20NACOES%20UNIDAS%2CN.%20600%20APTO.%20304%20BL%2004%2C%20VG%20124%2C%20OLARIA%2C%20SALTO%20-%20COND%20RES%20PARQUE%20SOLAR%20DOS%20PASSAROS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:03.805200"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DAS%20NACOES%20UNIDAS%2CN.%20600%20APTO.%20303%20BL%2056%2C%20VG%20870%2C%20OLARIA%2C%20SALTO%20-%20COND%20RES%20SOLAR%20DOS%20PASSAROS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:04.042673"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DAS%20NACOES%20UNIDAS%2CN.%20600%20APTO.%20102%20BL%2019%2C%20VG%20291%2C%20OLARIA%2C%20SALTO%20-%20COND%20RES%20SOLAR%20DOS%20PASSAROS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:04.147754"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%2017%20DE%20JANEIRO%2CN.%20185%20APTO.%20608%20TORRE%20B%2C%20PARAISO%20DO%20MORUMBI%2C%20SAO%20PAULO%20-%20CONDOMINIO%20RESIDENCIAL%20MY%20CLICK%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:04.707230"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LUIZ%20HENRIQUE%20FERREIRA%2CN.%20SN%20LT%20A%2002%2004%2C%20QD%2001%2C%20PARQUE%20FERROVIARIO%2C%20LINS%20-%20LOT%20VILA%20SAO%20FRANCISCO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:05.535554"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20EDITH%20JUNQUEIRA%20DE%20AZEVEDO%20MARQUES%2CN.%20265%20APTO.%201912%20TORRE%20A%2C%20PARQUE%20MUNHOZ%2C%20SAO%20PAULO%20-%20COND%20RES%20PLANO%20E%20FLORADA%20IPE%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:06.641411"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DORVALINO%20DONEGA%2CN.%20273%20LT%2014%2C%20QD%2007%2C%20PARQUE%20RESIDENCIAL%20EDSON%20BAFFI%2C%20SAO%20JOSE%20DO%20RIO%20PRETO%20-%20PARQUE%20RESIDENCIAL%20EDSON%20BAFFI%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:06.891876"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20GOVERNADOR%20MARIO%20COVAS%2CN.%2020%20APTO.%2012%20BL%201%2C%20PARQUE%20RESIDENCIAL%20RAFAEL%20ALCALA%2C%20PORTO%20FELIZ%20-%20COND%20PORTAL%20DAS%20ARARAS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:07.173072"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FORTE%20DO%20TRIUNFO%2CN.%20501%20APTO.%2033%20BL%201%20-%20EDIFICIO%20ANDORINHA%2C%20PARQUE%20SAO%20LOURENCO%2C%20SAO%20PAULO%20-%20CONDOMINIO%20MORADA%20DOS%20PASSAROS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:07.281265"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCISCO%20DE%20ALMEIDA%2CN.%201100%20APTO.%20305%20BL%206%2C%20VG%20179%2C%20PARQUE%20SAO%20SEBASTIAO%2C%20RIBEIRAO%20PRETO%20-%20PARQUE%20ROYAL%20GARDEN%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:07.386930"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SENADOR%20SALGADO%20FILHO%2CN.%201050%20APTO.%2026%20BLOCO%20III%2C%20PARQUE%20SAO%20VICENTE%2C%20SAO%20VICENTE%20-%20RES%20VILLAGIO%20DO%20JOCKEY%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:07.498467"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BRUNO%20CAVALCANTI%20FEDER%2CN.%20101%20APTO.%2067%20BL%20B%2C%20QUINTA%20DA%20PAINEIRA%2C%20SAO%20PAULO%20-%20RES%20ATUA%20PRACA%20IBITIRAMA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:08.591793"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ESTADO%20DO%20RIO%20GRANDE%20DO%20NORTE%2CN.%2022%20APTO.%2021%2C%20RECANTO%20DO%20GUARAU%2C%20SALTO%20-%20EDIFICIO%20RESIDENCIAL%20PEDRA%20DO%20SOL%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:08.873666"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20E%20GUIOMAR%20SOEIRA%2CN.%20155%20APTO.%20303%20BL%2078%20VG%20785%2C%20RESERVA%20REAL%2C%20RIBEIRAO%20PRETO%20-%20PALACIO%20IMPERIAL%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:09.753859"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PRESBITERO%20EVANGELISTA%20DO%20NASCIMENTO%2CN.%20544%20APTO.%2022%20BL%2004%2C%20RESIDENCIAL%20NOVO%20TEMPO%2C%20CAMPINAS%20-%20COND%20ALAMEDAS%20OURO%20VERDE%20II%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:10.141381"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DEOLINDO%20VERONEZ%2CN.%20O-1308%20QUADRA%20H-1%2C%20LOTE%2010%2C%20RESIDENCIAL%20PARQUE%20DA%20COLINA%2C%20PEDERNEIRAS%20-%20RES%20PQ%20DA%20COLINA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:10.272639"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20MANOEL%20DE%20FREITAS%20ASSUNCAO%2CN.%20400%20APTO.%20304%20BL%2003%2C%20VG%2056%2C%20RIOS%20DE%20SPAGNA%2C%20SAO%20JOSE%20DO%20RIO%20PRETO%20-%20PARQUE%20RIO%20SELLA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:10.787551"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20WALDEMAR%20DE%20FREITAS%20ASSUNCAO%2CN.%20300%20APTO.%20201%20BL%2007%2C%20VG%2078%2C%20RIOS%20DE%20SPAGNA%2C%20SAO%20JOSE%20DO%20RIO%20PRETO%20-%20PARQUE%20RIO%20LIMA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:11.041784"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PATRICIA%20RODRIGUES%20FONTES%2CN.%20605%20APTO.%20108%20BL%2012%2C%20VG%20295%2C%20RIOS%20DI%20ITALIA%2C%20SAO%20JOSE%20DO%20RIO%20PRETO%20-%20PQ%20RIO%20FIORA%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:11.298199"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCISCO%20BRAZ%20DO%20PRADO%2CN.%201090%20APTO.%2035%203O%20PAVIMENTO%2C%203O%20ANDAR%2C%20%2C%20SAO%20BENTO%2C%20PAULINIA%20-%20COND%20RES%20BOM%20RETIRO%20IV%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:11.840181"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LEONILDA%20FUMES%20DE%20PIERI%2CN.%20164%20LT%2015%2C%20QD%2004%2C%20VIDA%20NOVA%20BOTUCATU%20RUBIAO%20JUNIOR%20%2C%20BOTUCATU%20-%20VIDA%20NOVA%20BOTUCATU%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:14.251638"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BARTHOLOMEU%20DO%20CANTO%2CN.%2094%20APTO.%20702%20TORRE%20C%20-%207%20PAV%2C%20VILA%20ALBERTINA%2C%20SAO%20PAULO%20-%20COND%20RES%20PLANO%20E%20BAIRRO%20DO%20LIMAO%20-%20BARTOLOMEU%20DO%20C%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:14.504445"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SETE%20DE%20SETEMBRO%2CN.%202228%20APTO.%2031%20BL%20E%2C%20TR%2001%2C%20VILA%20ARTUR%20SESTINI%2C%20FRANCO%20DA%20ROCHA%20-%20COND%20PORTO%20SEGURO%20VII%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:14.917177"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SAO%20FELIX%20DO%20PIAUI%2CN.%20835%20APTO.%2014%20TR%2002%2C%20VILA%20CARMOSINA%2C%20SAO%20PAULO%20-%20CONDOMINIO%20RESIDENCIAL%20ITAQUERA%20PRIME%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:15.614569"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/VIA%20DE%20ACESSO%20A%2CN.%2078%20APTO.%20401%20BL%2011%2C%20VG%20390%2C%20VILA%20GIAMPIETRO%2C%20BIRIGUI%20-%20COND%20PARQUE%20BOSQUE%20DAS%20AZALEAS%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:16.320443"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ERICO%20VERISSIMO%2CN.%20708%20APTO.%2033%20BL%20C%20-%203%20PAV%2C%20VILA%20JOCKEI%20CLUBE%2C%20SAO%20VICENTE%20-%20RES%20CIDADE%20JARDIM%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:17.153828"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20RIBEIRA%20DO%20POMBAL%2CN.%20288%20APTO.%2012%20BL%20D-10%20-%20TIPO%202-D%2C%20VILA%20SILVIA%2C%20SAO%20PAULO%20-%20COND%20RES%20JOSE%20LUCENTI%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:18.716750"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20CONSTITUINTE%20DO%20BAIRRO%20IRACEMA%2CN.%20135%20APTO.%20202%20BL%2002%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20SOLAR%20DO%20OESTE%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:19.719593"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROJETADA%204%2CN.%20100%20APTO.%20303%20BL%2001%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20RES%20COMPLETO%20PARQUE%20BRITO%20III%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:20.096680"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROJETADA%20A%2CN.%20175%20APTO.%20404%20BL%207%2C%20LT%2002%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20COND%20RES%20RIO%20ROCK%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:20.382126"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20BRASIL%2CN.%2048677%20APTO.%20301%20BL%2004%20LT%2004%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20RES%20RESERVA%20DO%20CAMPO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:20.492603"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20RIO-SAO%20PAULO%2CN.%204355%20APTO.%20502%20BL%2005%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20PARK%20RIVIERA%20DO%20SOL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:22.473728"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20RIO-SAO%20PAULO%2CN.%204355%20APTO.%20506%20BL%2003%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20PARK%20RIVIERA%20DO%20SOL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:22.726740"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ANTONIO%20CARLOS%20BELCHIOR%2CN.%20270%20APTO.%20201%20BL%203%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20COND%20RESIDENCIAL%20RIO%20JAZZ%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:23.391237"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSUE%20DE%20BARROS%2CN.%2099%20APTO.%20203%20BL%2008%20LT%2002%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20PARK%20RENOVARE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:23.942863"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSUE%20DE%20BARROS%2CN.%2099%20APTO.%20104%20BL%2006%20LT%2002%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20PARK%20RENOVARE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:24.207019"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROJETA%2004%2CN.%20100%20APTO.%20511%20BL%2003%2C%20CAMPO%20GRANDE%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20COMPLETO%20PARQUE%20BRITO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:24.705934"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AV%20PREFEITO%20JORGE%20JULIO%20COSTA%20DOS%20SANTOS%2CN.%20700%20APTO.%20406%20BL%2022%2C%20LT%20A1%2C%20CENTRO%2C%20BELFORD%20ROXO%20-%20RESIDENCIAL%20PORTAL%20DO%20SOL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:26.450782"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20F%2CN.%20300%20APTO.%20102%20%2C%20TIPO%20I%2C%20ATUAL%20ESTRADA%20DA%20BOA%2C%20CENTRO%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20JARDIM%20DAS%20VIOLETAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:27.548450"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ARTHUR%20VASCONCELOS%20SAMPAIO%20-%20ANTIGA%20RUA%2031%2CN.%20SN%20CS%2005%2C%20QD%2023%2C%20ENGENHO%2C%20ITAGUAI%20-%20COND%20RES%20VALE%20DOS%20ESQUILOS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:29.920564"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VAZ%20DE%20TOLEDO%2CN.%2095%20APTO.%20102%20BLOCO%20A%2C%20ENGENHO%20NOVO%2C%20RIO%20DE%20JANEIRO%20-%20FREGUESIA%20DO%20ENGENHO%20NOVO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:30.987512"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20SN%20APTO.%20404%20LT%2001%2C%20QD%2008%2C%20BL%2004%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:31.091493"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20S%20N%20APTO.%20202%20LOTE%2001%20-%20QUADRA%2008%20-%20BL%2007%2C%20ESPERANCA%2C%20ITABORAI%20-%20CONDOMINIO%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:31.792073"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20SN%20APTO.%20203%20QD%2008%2C%20LT%2001%2C%20BL%2018%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:31.896108"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20591%20APTO.%20402%20LT%2001%2C%20QD%2008%2C%20BL%2015%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:32.001882"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20SN%20APTO.%20503%20BL%2006%2C%20QD%2008%2C%20LT%2001%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:32.385234"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20591%20APTO.%20402%20LT%2001%2C%20QD%2008%2C%20BL%2012%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:32.632840"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%2CN.%20SN%20APTO.%20401%20BL%2013%2C%20LT%2001%2C%20QD%2008%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:32.904739"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%20QUADRA%2CN.%20SN%20APTO.%20101%20LT%201%2C%20QD%2008%2C%20BL%2005%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:33.288926"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%20QUADRA%2CN.%20SN%20APTO.%20103%20BL%2017%2C%20QD%2008%2C%20LT%2001%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:33.406577"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%20QUADRA%2CN.%20SN%20APTO.%20404%20BL%2009%20-%20LOTE%2001%20-%20QUADRA%2008%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:33.512328"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%20QUADRA%2CN.%20S%20N%20APTO.%20502%20BL%2007%20-%20LOTE%2001%20-%20QD%2008%2C%20ESPERANCA%2C%20ITABORAI%20-%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:33.620215"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FLAVIO%20VASCONCELOS%20QUADRA%2CN.%20SN%20APTO.%20301%20BL%2006%2C%20LT%2001%2C%20QD%2008%2C%20ESPERANCA%2C%20ITABORAI%20-%20LOT%20VIVER%20MELHOR%20ITABORAI%20COND%20CONQUISTA%20ITABORAI%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:33.877451"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20VEREADOR%20LUIZ%20CARLOS%20DA%20SILVA%2CN.%20500%20APTO.%20304%20BL%2020%2C%20GALO%20BRANCO%2C%20SAO%20GONCALO%20-%20RES%20NOVA%20MARICA%20LIFE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:34.117205"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PAULO%20NOGUEIRA%20PAMPLONA%20CORTE%20REAL%2CN.%2068%20LT%2034%20-%20QUADRA%2019%20-%20ANTIGA%20RUA%2016%2C%20GOYTACAZES%2C%20CAMPOS%20DOS%20GOYTACAZES%20-%20RESIDENCIAL%20JARDIM%20PRIMAVERA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:34.959843"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20CABUCU%20DE%20BAIXO%2CN.%20490%20APTO.%20207%20BL%2005%2C%20GUARATIBA%2C%20RIO%20DE%20JANEIRO%20-%20COND%20RESERVA%20DO%20PARQUE%202%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:36.552576"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20AGUA%20GRANDE%2CN.%20303%20APTO.%20403%20BL%2002%2C%20LT%2001%2C%20PA%2047826%2C%20IRAJA%2C%20RIO%20DE%20JANEIRO%20-%20GOLD%20LINHARES%20EMPREENDIMENTOS%20IMOBILIARIOS%20SPE%20LTD%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:39.750543"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SAO%20JOSEMARIA%20ESCRIVA%2CN.%20302%20APTO.%20301%20BL%2020%2C%20ITANHANGA%2C%20RIO%20DE%20JANEIRO%20-%20SAO%20GOTARDO%20EMPREENDIMENTOS%20IMOBILIARIOS%20LTDA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:40.269688"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20ABILIO%20AUGUSTO%20TAVORA%2CN.%20SN%20APTO.%20512%20BL%2001%2C%20JARDIM%20ALVORADA%2C%20NOVA%20IGUACU%20-%20COND%20RES%20PARQUE%20DOS%20SONHOS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:41.526628"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20ABILIO%20AUGUSTO%20TAVORA%2CN.%20S%20N%20APTO.%20104%20BL%2006%2C%20JARDIM%20ALVORADA%2C%20NOVA%20IGUACU%20-%20RESIDENCIAL%20PARQUE%20DOS%20SONHOS%20NOVA%20IGUACU%203%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:41.636474"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LUISA%20DIAS%20MARTINS%2CN.%20SN%20APTO.%20510%20BL%2005%2C%20LT%2001-B%2C%20JARDIM%20ALVORADA%2C%20NOVA%20IGUACU%20-%20COND%20RES%20BELA%20VISTA%20NOVA%20IGUACU%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:41.884542"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LUISA%20DIAS%20MARTINS%2CN.%20S%20N%20APTO.%20208%20BL%2009%2C%20JARDIM%20ALVORADA%2C%20NOVA%20IGUACU%20-%20RESIDENCIAL%20BELA%20VISTA%20NOVA%20IGUACU%203%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:41.994994"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ENEIDA%20DE%20FREITAS%20MEDEIROS%2CN.%2040%20CS%2008%2C%20JARDIM%20INDEPENDENCIA%2C%20SAO%20GONCALO%20-%20CONDOMINIO%20RESIDENCIAL%20PARK%20JOCKEY%20CLUB%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:44.016750"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ANA%20NERI%2CN.%20102%20APTO.%201002%20BL%2001%2C%20LT%2005%2C%20QD%2057%2C%20JARDIM%20VINTE%20E%20CINCO%20DE%20AGOSTO%2C%20DUQUE%20DE%20CAXIAS%20-%20COND%20ELEGANCE%20RESIDENCIAL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:45.787897"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BASILIO%20DA%20GAMA%2CN.%20158%20APTO.%20201%20CS%2004%20-%20VG%2009%2C%20LAGOINHA%2C%20SAO%20GONCALO%20-%20LOT%20JARDIM%20NOSSA%20SENHORA%20AUXILIADORA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:45.893125"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VEREADOR%20ALFREDO%20LOPES%20DE%20SOUZA%20-%20ANTIGA%20RUA%20R%2CN.%20SN%20CS%2005%2C%20BL%2002%2C%20LT%2009%2C%20QD%2019%2C%20LEANDRO%2C%20ITAGUAI%20-%20COND%20RES%20VILA%20VERDE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:46.148590"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20RAIMUNDO%20DE%20FARIAS%20BRITO%2CN.%20235%20APTO.%20404%20BL%2008%2C%20LOTEAMENTO%20SONHO%20DOURADO%2C%20CAMPOS%20DOS%20GOYTACAZES%20-%20COND%20RES%20PARQUE%20ONIX%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:46.407715"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20FRANCISCO%20FORTES%20FILHO%2CN.%20S%20N%20APTO.%20304%20BL%2014%2C%20MIRANTE%20DE%20SERRA%2C%20RESENDE%20-%20PARQUE%20RESERVA%20PORTO%20REAL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:48.801016"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20JOAO%20DE%20ABREU%2CN.%20214%20APTO.%20501%20BL10%20-%20LT%2006%20-%20VG05%2C%20MONJOLOS%2C%20SAO%20GONCALO%20-%20CONDOMINIO%20BOSQUE%20DOS%20SONHOS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:49.799624"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BARAO%20DE%20SAO%20GONCALO%2CN.%20220%20APTO.%20404%20BL%2003-C%2C%20NEVES%20NEVES%20%2C%20SAO%20GONCALO%20-%20RESD%20MEU%20LAR%20SAO%20GONCALO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:50.904032"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BARAO%20DE%20SAO%20GONCALO%2CN.%20220%20APTO.%20304%20BL%2009%20B%2C%20NEVES%20NEVES%20%2C%20SAO%20GONCALO%20-%20RES%20MEU%20LAR%20SAO%20GONCALO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:51.419384"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VICENTE%20DE%20LIMA%20CLETO%2CN.%20451%20APTO.%20507%20BL%2001%2C%20NOVA%20CIDADE%2C%20SAO%20GONCALO%20-%20COND%20RES%20COMPLETO%20SAO%20GONCALO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:51.578262"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20403%20TR%2017%20-%20VG%20AREA%201-A%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20JARDIM%20DAS%20VIOLETAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:52.284884"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSE%20ADRIANO%20FERREIRA%2CN.%20SN%20CASA%2009%20LT%20528%20QD%2028%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20MARQUES%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:52.520772"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20401%20T%2023%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20JARDIM%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:52.624419"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20201%20TR%2010%2C%20TIPO%20I%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20COND%20PORTAL%20JD%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:52.748829"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20303%20T%2004%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20JARDIM%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:52.988438"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20101%20TR%2001%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20COND%20PORTAL%20JD%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:53.093628"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20302%20T%2006%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20JARDIM%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:53.198290"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20BOA%20VISTA%2CN.%20SN%20APTO.%20204%20TR%2008%2C%20NOVO%20HORIZONTE%20MANILHA%20%2C%20ITABORAI%20-%20COND%20PORTAL%20JD%20DAS%20BROMELIAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:53.302787"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DO%20CAMPINHO%2CN.%206731%20APTO.%20101%20BL%2010%2C%20LT%2001%2C%20PACIENCIA%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20PARQUE%20RIVIERA%20TROPICAL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:55.241924"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20CABRAL%20DE%20MELO%20NETO%2CN.%2003%20APTO.%20401%20BL%206B%2C%20PARQUE%20NOVO%20JOCKEY%2C%20CAMPOS%20DOS%20GOYTACAZES%20-%20RESIDENCIAL%20PARQUE%20GAIA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:21:57.289552"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ASSIS%20CARNEIRO%2CN.%2080%20APTO.%20105%20BL%2004%2C%20LT%2001%2C%20PIEDADE%2C%20RIO%20DE%20JANEIRO%20-%20PIEDADE%20EMPREENDIMENTOS%20IMOBILIARIOS%20LTDA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:00.697363"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20COELHO%20DA%20ROCHA%2CN.%202235%20APTO.%20402%20BL%2014%2C%20ROCHA%20SOBRINHO%2C%20MESQUITA%20-%20ED%20RES%20CAMINHOS%20DO%20RIO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:04.246534"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20COELHO%20DA%20ROCHA%2CN.%202235%20APTO.%20101%20BL%2016%2C%20ROCHA%20SOBRINHO%2C%20MESQUITA%20-%20ED%20RES%20CAMINHOS%20DO%20RIO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:04.350313"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20COELHO%20DA%20ROCHA%2CN.%202235%20APTO.%20502%20BL%2001%2C%20ROCHA%20SOBRINHO%2C%20MESQUITA%20-%20ED%20RES%20CAMINHOS%20DO%20RIO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:04.885234"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20COELHO%20DA%20ROCHA%2CN.%202235%20APTO.%20402%20BL%2015%2C%20ROCHA%20SOBRINHO%2C%20MESQUITA%20-%20ED%20RES%20CAMINHOS%20DO%20RIO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:04.994286"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20BELO%20HORIZONTE%2CN.%20855%20APTO.%20501%20BL%2003%2C%20LT%2002%2C%20SANTA%20AMELIA%2C%20BELFORD%20ROXO%20-%20CONDOMINIO%20VIVA%20VIDA%20ALEGRIA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:05.701129"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201735%20APTO.%20309%20BL%2004%20-%20LT2%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20PQ%20RECANTO%20DA%20SERRA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.118705"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201735%20APTO.%20111%20BL%2001%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20PARQUE%20RECANTO%20DA%20SERRA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.377220"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201735%20APTO.%20101%20BL%2003%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20PARQUE%20RECANTO%20DA%20SERRA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.479286"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201956%20APTO.%20104%20QD%20A%2C%20BL%2009%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20COND%20RES%20VILLAGGIO%20NOVITA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.588296"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201427%20APTO.%20101%20BL%207%2C%20LT%2002%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RES%20RIO%20ARARAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.702548"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PADRE%20GUILHERME%20DECAMINADA%2CN.%201427%20APTO.%20503%20BL%207%20-%20LT2%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RES%20RIO%20ARARAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.808616"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20PEDRA%2CN.%20753%20APTO.%20307%20BL%2004%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RES%20VIVA%20VIDA%20ZONA%20OESTE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:06.914125"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20PEDRA%2CN.%20753%20APTO.%20402%20BL%2003%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RES%20VIVA%20VIDA%20ZONA%20OESTE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:07.160535"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20PEDRA%2CN.%202243%20APTO.%20410%20BL%2001%20-%20LT%201%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20COND%20VIVA%20VIDA%20HARMONIA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:07.838255"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20PEDRA%2CN.%202243%20APTO.%20409%20BL%2004%2C%20LT%2001%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20COND%20VIVA%20VIDA%20HARMONIA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:07.943009"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%203300%20APTO.%20403%20BL%2017%20-%20LT%202%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20SANTIAGO%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:08.464893"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202000%20APTO.%20208%20BL%2002%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RES%20JARDIM%20DOS%20LIRIOS%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:08.751397"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202000%20APTO.%20502%20BL%2012%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:09.011608"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202000%20APTO.%20306%20BL%2012%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20JARDIM%20DOS%20LIRIOS%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:09.265230"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20402%20BL%2012%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:09.510528"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20501%20BL%2003%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:09.795094"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20508%20BL%2006%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:10.356239"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20501%20BL%2005%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:10.482259"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20207%20BL%2005%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:10.676237"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20405%20BL%2005%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:10.962169"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20407%20BL%2004%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:11.073492"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20303%20BL%2010%20LT%201%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:11.522229"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20304%20BL%2011%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:11.769114"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202400%20APTO.%20303%20BL%2009%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20LIRIOS%20II%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:12.022515"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DE%20SANTA%20EUGENIA%2CN.%202800%20APTO.%20302%20BL%2006%20-%20LT%2002%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20HIBISCO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:12.133323"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20APORUNA%2CN.%20111%20APTO.%20103%20BL%2003%20-%20LT%2002%20-%2049359%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20COND%20VIVA%20VIDA%20TRANQUILIDADE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:14.936547"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20COMPOSITOR%20TUNAI%2CN.%20115%20APTO.%20106%20BL%2013%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20JARDIM%20DOS%20IPES%20III%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:16.671802"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOS%20JESUITAS%2CN.%20551%20APTO.%20504%20BL%2004%20-%20LT%201%20-%2049009%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20JARDIM%20DOS%20IPES%20I%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:16.916107"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PROJETADA%20A%2CN.%20250%20APTO.%20404%20BL%2008%2C%20LT%2002%2C%20SANTA%20CRUZ%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20VILLAGGIO%20VERONA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:19.064619"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTOR%20JUVENAL%20MURTINHO%2CN.%20155%20APTO.%20204%20BL%2005%20-%20VG%2043%2C%20SANTISSIMO%2C%20RIO%20DE%20JANEIRO%20-%20FREGUESIA%20DE%20CAMPO%20GRANDE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:20.838469"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20OTONIEL%20GOMES%20TAVARES%2CN.%201185%20APTO.%20101%20BL%2011%2C%20SAO%20JOSE%20DO%20BARRETO%2C%20MACAE%20-%20RESIDENCIAL%20MAR%20DO%20CARIBE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:22.187170"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SARGENTO%20GERALDO%20PEDRO%20DE%20SOUZA%2CN.%2080%20APTO.%20111%20BL%2002%2C%20SAO%20VICENTE%2C%20BELFORD%20ROXO%20-%20VIVA%20VIDA%20NATURALE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:22.426452"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVN%20DE%20SANTA%20CRUZ%2CN.%206495%20APTO.%20503%20BL%2005%2C%20SENADOR%20CAMARA%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIAL%20RIVIERA%20DO%20CAMPO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:22.673573"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DO%20RIO%20GRANDE%2CN.%201240%20APTO.%20108%20BL%2002%20-%20LT%201%2C%20TAQUARA%2C%20RIO%20DE%20JANEIRO%20-%20RESIDENCIA%20RESERVA%20DO%20RIO%20GRANDE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:22.780352"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/PRACA%20HENRIQUE%20GONZALES%2CN.%20150%20APTO.%20303%20BL%2003%20-%20LT%201%20-%2048771%2C%20TOMAS%20COELHO%2C%20RIO%20DE%20JANEIRO%20-%20COND%20CONQUISTA%20TOMAS%20COELHO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:23.705244"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LICIVAL%20MOREIRA%2CN.%20SN%20APTO.%20802%20TR%2012%2C%20TIPO%2001%2C%20VENDA%20DAS%20PEDRAS%2C%20ITABORAI%20-%20COND%20PORTAL%20VEREDAS%20DO%20CAMPO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:26.148057"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LICIVAL%20MOREIRA%2CN.%20160%20APTO.%20701%20TR%2004%2C%20TIPO%2001%20-%20N.%20160%20NO%20LOC%2C%20VENDA%20DAS%20PEDRAS%2C%20ITABORAI%20-%20CONDOMINIO%20PORTAL%20VEREDAS%20DO%20CAMPO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:26.582295"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSE%20DOS%20ANJOS%2CN.%20160%20APTO.%20311%20BL%2006%2C%20VILA%20AVELINA%2C%20NOVA%20IGUACU%20-%20CONDOMINIO%20RESIDENCIAL%20COMPLETO%20NOVA%20IGUACU%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:26.889714"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCESCO%20GIOBBI%2CN.%20146%20CS%201%2C%20LT%2013%2CQD%2028-A%2C%20ACESSO%20PELA%20RUA%20MAR%2C%20QUEIMADOS%20-%20VILA%20CAMARIM%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:27.143857"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20TENORIO%20CAVALCANTI%2CN.%20180%20APTO.%20302%20LT%2001-A%2C%20BL%205C%2C%20VILA%20CATIA%2C%20NOVA%20IGUACU%20-%20COND%20RES%20VIVA%20MAIS%20NOVA%20IGUACU%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:27.468793"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20904%20APTO.%20306%20BL%2003%20LOTE%20B1%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20RESIDENCIAL%20PARQUE%20SOL%20DA%20GUANABARA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:28.325426"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20904%20APTO.%20403%20BL%2009%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20COND%20RES%20PQ%20SOL%20DA%20GUANABARA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:28.435050"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20738%20APTO.%20108%20BL%2006%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20COND%20PARQUE%20SOL%20DA%20ENSEADA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:28.543895"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20738%20APTO.%20208%20BL%2008%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20COND%20PARQUE%20SOL%20DA%20ENSEADA%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:28.649726"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20822%20APTO.%20207%20BL%2005%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20COND%20PQ%20SOL%20DO%20PONTAL%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:28.914254"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20LUCIO%20TOME%20FETEIRA%2CN.%20496%20APTO.%20106%20BL%2006%2C%20VILA%20LAGE%2C%20SAO%20GONCALO%20-%20COND%20PARQUE%20SOL%20DO%20PORTO%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:29.199495"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DA%20AGUA%20GRANDE%2CN.%201625%20APTO.%201409%20BL%2001%20-%20LT%201%20-%2048868%2C%20VISTA%20ALEGRE%2C%20RIO%20DE%20JANEIRO%20-%20VISTA%20ALEGRE%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:29.627517"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20ANA%20DANTAS%2CN.%201779%20APTO.%201104%20BL%2007%2C%20LT%20G%203%2C%20XEREM%2C%20DUQUE%20DE%20CAXIAS%20-%20PORTAL%20RECANTO%20DAS%20ALPINAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.212647"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20DO%20AVIARIO%2CN.%20SN%20APTO.%20103%20BL%2003%2C%20ANTIGA%20AV%20ANA%20DANTAS%20N.%201779%2C%20XEREM%2C%20DUQUE%20DE%20CAXIAS%20-%20PORTAL%20RECANTO%20DAS%20ALPINAS%2C%20RJ%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.324674"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/VAGA%20DE%20GARAGEM%20DE%20NO.%202%2C%20ATUAL%20NO.%2012%2C%20LOCALIZADA%20NO%20SUB-SOLO%2C%20INTEGRANTE%20DO%20CO...%2C%20CAMPOS%20DO%20JORDAO%2C%20SP%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.440774"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/CENTRO%20NOVO%20DO%20MARANHAO-MA.%20BAIRRO%20PINHEIRO.%20RUA%20DO%20COMERCIO%2C%20974%20LT.%2025%20DA%20QD....%2C%20CENTRO%20NOVO%20DO%20MARANHAO%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.545197"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/CENTRO%20NOVO%20DO%20MARANHAO-MA.%20BAIRRO%20PICARRA.%20TRAVESSA%20DA%20IGREJA%2C%20309%20LT.%2004%20DA%20Q...%2C%20CENTRO%20NOVO%20DO%20MARANHAO%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.657157"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/SANTA%20HELENA-MA.%20VILA%20ANTONIO%20WEBA.%20RUA%2002%2C%20N%2088%20SETOR%2004%2C%20LT.%2096%20DA%20QD.%2007%20.%20...%2C%20SANTA%20HELENA%2C%20MA%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:30.766733"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PAULO%20ROBERTO%20VIDAL%2CN.%20475%20APTO.%20705%20BL%20A%2C%20VG%20127%2C%20BELA%20VISTA%2C%20PALHOCA%20-%20RNI%20GREEN%20CLUB%20PALHOCA%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:32.553820"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SEBASTIAO%20ALZEMIRO%20DOS%20SANTOS%2CN.%20387%20APTO.%20402%20BL%2011%2C%20VG%20124%2C%20BELA%20VISTA%2C%20PALHOCA%20-%20COND%20RES%20AZALEIAS%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:32.847628"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SEBASTIAO%20ALZEMIRO%20DOS%20SANTOS%2CN.%20387%20APTO.%20104%20BL%2016%2C%20VAGA%20DESCOBERTA%20268%2C%20BELA%20VISTA%2C%20PALHOCA%20-%20COND%20RES%20AZALEIAS%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:32.958274"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20PEDRO%20PAULO%20DE%20ABREU%2CN.%20801%20APTO.%20204%20BL%20G%2C%20VG%2050%2C%20FORQUILHINHA%2C%20SAO%20JOSE%20-%20CONDOMINIO%20RES%20MADRE%20PAULINA%20II%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:34.435655"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20RUDOLFO%20WALTER%2CN.%201449%20APTO.%20403%20BL%2022%2C%20465%2C%20ITOUPAVA%20CENTRAL%2C%20BLUMENAU%20-%20RES%20PORTAO%20DE%20BRANDENBURGO-%20RES%20BENDORF%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:35.763942"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20RUDOLFO%20WALTER%2CN.%201449%20APTO.%20401%20BL%2027%20-%204%20PAV%20-%20VG476%2C%20ITOUPAVA%20CENTRAL%2C%20BLUMENAU%20-%20RES%20PORTAO%20DE%20BRANDENBURGO-%20RES%20BENDORF%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:36.156618"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MANUEL%20AGOSTINHO%20DE%20CARVALHO%2CN.%20350%20APTO.%20202%20BL%2016%2C%20277%2C%20JOAO%20COSTA%2C%20JOINVILLE%20-%20COND%20RES%20PARK%20SUL%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:37.435194"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20OLIMPIO%20DE%20ESPINDOLA%2CN.%2039%20APTO.%20208%20BL%20D%2C%20VG%2078%2C%20NOVA%20PALHOCA%2C%20PALHOCA%20-%20COND%20RES%20CORES%20DO%20CAMBIRELA%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:37.953208"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20TUPY%2CN.%20835%20APTO.%20303B%20BL%2002%2C%20VAGAS%20DE%20GARAGEM%20NO%2028%20E%20NO%2028-A%2C%20SAO%20MARCOS%2C%20JOINVILLE%20-%20COND%20PRIVILEGE%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:39.779590"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MATHIAS%20SCHELL%2CN.%20313%20APTO.%2012%20BL%2001%2C%20SERTAO%20DO%20MARUIM%2C%20SAO%20JOSE%20-%20COND%20RES%20VILLAGIO%20BELLA%20VISTA%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:40.024458"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VIDAL%20VICENTE%20ANDRADE%2CN.%201221%20APTO.%20204%20BL%2013%20VG%20296%2C%20SERTAO%20DO%20MARUIM%2C%20SAO%20JOSE%20-%20PARQUE%20FLORES%20DA%20COSTA%2C%20SC%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:40.135311"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VALDIR%20PEDRO%20MARTINELLI%2CN.%2075%20QD%2013%2C%20LT%2007.%20UN%202%2C%20BOA%20VISTA%2C%20SAPUCAIA%20DO%20SUL%20-%20COND%20RES%20LUIS%20PASTEUR%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:42.215073"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20EUCLIDES%20CORREA%20MACHADO%2CN.%20114%20APTO.%20503%2C%2001%2C09%2C%20FREITAS%2C%20SAPUCAIA%20DO%20SUL%20-%20ED%20RES%20RECANTO%20DA%20FLORESTA%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:43.327749"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20CENTO%20E%20CINQUENTA%2CN.%20213%20APTO.%20102%20LT%2021%20QD%20E-4A%2C%20JARDIM%20ALGARVE%2C%20ALVORADA%20-%20COND%20RES%20GEHLEN%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:43.819991"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2CN.%202194%20APTO.%20504%20TR%2005%2C%20VG%20105%2C%20LOMBA%20DO%20PINHEIRO%2C%20PORTO%20ALEGRE%20-%20CONDOMINIO%20RESIDENCIAL%20SITIO%20JUNDIAI%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:44.358128"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MOURA%20AZEVEDO%2CN.%20180%20APTO.%20201%20BL%2002%2C%20VG%2018%2C%20MORADA%20DO%20VALE%20III%2C%20GRAVATAI%20-%20COND%20DO%20EDIFICIO%20RESIDENCIAL%20DONA%20ROSA%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:44.733433"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOS%20TANGARAS%2CN.%201839%20APTO.%20203%20BLOCO%20K%2C%20149%2C%20SANTA%20FE%2C%20CAXIAS%20DO%20SUL%20-%20COND%20RES%20SPAZIO%20TANGARAS%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:46.584394"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20TOMAZ%20EDISON%2CN.%203500%20APTO.%20202%20BL%2C35%20-%20BOX%2C161%2C%20SAO%20MIGUEL%2C%20SAO%20LEOPOLDO%20-%20CONDOMINIO%20VIVER%20SAO%20LEOPOLDO%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:47.821143"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ATILIO%20SUPERTTI%2CN.%202164%20APTO.%20102%20BL%2006%2C%20VG%20116%2C%20VILA%20NOVA%2C%20PORTO%20ALEGRE%20-%20EDIFICIO%20RESIDENCIAL%20PORTO%20MINUANO%2C%20RS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:48.371159"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ANTONIO%20FERNANDES%20DE%20ANDRADE%2CN.%202%20LT%2011%2C%20QD%2007%2C%20LOT%20RES%20MITACUNHA%2C%20PRADO%20FERREIRA%20-%20LOT%20RESIDENCIAL%20MITACUNHA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:49.572945"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOMINGOS%20ARROYO%20SANCHES%2CN.%20263%20LT%2013%2C%20QD%2005%2C%20LOT%20RES%20BELLA%20SUICA%2C%20SANTO%20INACIO%20-%20RES%20BELLA%20SUICA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:49.823354"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20DOS%20EXPEDICIONARIOS%2CN.%201145%20APTO.%201145%20TIPO%2001%2C%20NO%204%20PAV%2C%20N.832%2C%20BOM%20JESUS%2C%20CAMPO%20LARGO%20-%20RESIDENCIAL%20MADISON%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:50.639739"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20IRMA%20LUCRECIA%20DA%20ROCHA%2CN.%2080%20APTO.%20102%20BL%2025%2C%20CAMPO%20LARGO%20DA%20ROSEIRA%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20COND%20RES%20SAFIRA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:51.722071"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ALFREDO%20SILVA%20RIBEIRO%2CN.%2037%20CS%2001%20LT%20F%20QD%2015%2C%20CARA-CARA%2C%20PONTA%20GROSSA%20-%20COND%20RES%20JB%20LXXVI%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:52.277037"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20IVONE%20FRANCO%20KICHILESKI%2CN.%20250%20CS%2013%2C%20LT%20213%2C%20QD%2013%2C%20CARA-CARA%2C%20PONTA%20GROSSA%20-%20COND%20RES%20CAMPOBELLO%20GARDEN%20Q13%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:52.683293"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LOURIVAL%20DOS%20SANTOS%20RIBAS%2CN.%2070%20CS%2027%2C%20QD%2004%2C%20CARA-CARA%2C%20PONTA%20GROSSA%20-%20CONJUNTO%20HABITACIONAL%20CAMPO%20BELO%20B%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:53.015243"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PEDRO%20VIRIATO%20PARIGOT%20DE%20SOUZA%2CN.%20243%20APTO.%20201%20BL%2004%2C%20236%2C%20CHACARA%20MANELLA%2C%20CAMBE%20-%20CONDOMINIO%20RESIDENCIAL%20LANIN%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:54.242108"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LEANDRO%20DACHEUX%20DO%20NASCIMENTO%20JUNIOR%2CN.%20621%20APTO.%2002%20BL%2001%2C%20CIDADE%20INDUSTRIAL%2C%20CURITIBA%20-%20CJ%20RES%20MORADIAS%20ATENAS%20I%20-%20COND%20XXI%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:54.350069"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20AKEO%20HASUDA%2CN.%20150%20APTO.%20202%2C%20VG%2044%20E%20MOTO%2002%2C%20CIDADE%20INDUSTRIAL%202%2C%20LONDRINA%20-%20LAGO%20DI%20GARDA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:55.024695"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/R%20OLYMPIO%20THEODORO%2CN.%201055%20APTO.%20102%20BL16%2C%20VAGA%20DE%20GARAGEM%20N%2031%2C%20COLINAS%2C%20LONDRINA%20-%20COND%20SPAZIO%20LA%20VITTA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:55.136716"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOSE%20GOMES%20DE%20ALMEIDA%2CN.%2080%20APTO.%20304%20BL%2010%2C%20COLONIA%20RIO%20GRANDE%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20ALTO%20IGUACU%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:55.816057"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTOR%20JOEL%20MIRA%20SABOIA%2CN.%20SN%20LT%2011%2C%20QD%2022%2C%20CONJUNTO%20HABITACIONAL%20SOLO%20SAGRADO%2C%20APUCARANA%20-%20CJ%20HAB%20SOLO%20SAGRADO%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:55.930177"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MAESTRO%20IVONEI%20FRANCO%20DOS%20SANTOS%2CN.%20SN%20QD%2021%2C%20LT%2010%2C%20CONJUNTO%20HABITACIONAL%20SOLO%20SAGRADO%2C%20APUCARANA%20-%20CJ%20HAB%20SOLO%20SAGRADO%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:56.032747"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20NAYME%20NASSER%2CN.%20485%20APTO.%2003%20VG%2003%2C%20COSTEIRA%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20COND%20RES%20MORADA%20DAS%20ARAUCARIAS%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:56.575558"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCISCO%20DA%20CONCEICAO%20MACHADO%2CN.%201526%20CS%2089%2C%20GRALHA%20AZUL%2C%20FAZENDA%20RIO%20GRANDE%20-%20COND%20RES%20MORADA%20DOS%20PASSAROS%20I%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:57.475851"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VEREADOR%20WADISLAU%20BUGALSKI%2CN.%203690%20APTO.%20345%20BL%2003%2C%2029%2C%20JARDIM%20BUENOS%20AIRES%2C%20ALMIRANTE%20TAMANDARE%20-%20COND%20RES%20BENVENUE%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:58.260742"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PIONEIRO%20ANTONIO%20RUIZ%20SALDANHA%2CN.%20SN%20APTO.%20408%20TR%2002%2C%20VG%20119%2C%20JARDIM%20DAS%20ESTACOES%2C%20MARINGA%20-%20CONDOMINIO%20RESIDENCIAL%20SPAZIO%20MISATO%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:58.365266"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MARIA%20JOAQUINA%20VAZ%2CN.%20721%20APTO.%20202%20BL%2028%2C%20VAGA%20DE%20ESTACIONAMENTO%20N1045%2C%20JARDIM%20ITAQUI%2C%20CAMPO%20LARGO%20-%20COND%20RES%20CALIFORNIA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:58.612412"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MARIA%20JOAQUINA%20VAZ%2CN.%20721%20APTO.%20306%20TP%2006%2C%203%20PAV%2C%20VG%20N.%20602%2C%20JARDIM%20ITAQUI%2C%20CAMPO%20LARGO%20-%20COND.%20RES.%20CALIFORNIA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:58.865357"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20TRENTO%2CN.%20155%20APTO.%20308%20BL%2010%2C%20VAGA%20DE%20GARAGEM%20NO%2028%2C%20JARDIM%20MONTECATINI%2C%20CAMBE%20-%20COND%20RES%20SPAZIO%20LUMINIS%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:22:58.972043"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/R%20SANHACO%2CN.%20794%20LT%20127-AB%2C%20EGLEBA%20NO%201-3A%20PARTE%20DA%20COLON%2C%20JARDIM%20TROPICAL%20I%2C%20CAMPO%20MOURAO%20-%20COND%20RES%20MARIA%20CAROLINA%20HERSEN%20PEQUITO%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:00.070958"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20LEONIDAS%20DA%20SILVA%20ANTUNES%2CN.%20274%20CS%2001%20LT%2006%20QD%2024%2C%20NEVES%2C%20PONTA%20GROSSA%20-%20COND%20RES%20DBS%2063%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:00.308839"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20PAUL%20HARRIS%2CN.%20889%20APTO.%20406%20BL%2006%2C%20VAGA%20DE%20GARAGEM%20NO.%2046%2C%20NOSSA%20SENHORA%20DE%20LOURDES%2C%20LONDRINA%20-%20CONDOMINIO%20RESIDENCE%20VILLA%20BELLA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:00.419614"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20MANOEL%20DA%20SILVA%2CN.%2010%20APTO.%20301%20BL%2002%2C%20VG%2025%2C%20OURO%20FINO%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20PARQUE%20COSTA%20AZUL%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:00.981262"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOLOVICO%20PISSAIA%2CN.%20841%20APTO.%20104%20BL%2002%2C%20PARQUE%20DA%20FONTE%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20VILLAGIO%20DI%20PIACENZA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:01.494377"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SANTA%20EFIGENIA%2CN.%20525%20APTO.%2004%20VG%2004%2C%20ROSEIRA%20DE%20SAO%20SEBASTIAO%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20COND%20RES%20LUCAS%20BUENO%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:01.881517"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20NOSSA%20SENHORA%20APARECIDA%2CN.%202633%20APTO.%2014%20BL%2025%2C%20SANTA%20TEREZINHA%2C%20FAZENDA%20RIO%20GRANDE%20-%20CONDOMINIO%20RESIDENCIAL%20BOSQUE%20DE%20IPE%20II%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:02.000578"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCISCO%20DALNEGRO%2CN.%203057%20APTO.%20401%20BL%2060%2C%20VG%201028%2C%20SANTO%20ANTONIO%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20COND%20RES%20RESERVA%20BLANCA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:02.110088"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20FRANCISCO%20DALNEGRO%2CN.%203057%20APTO.%20103%20BL%2045%2C%20VG%201300%2C%20SANTO%20ANTONIO%2C%20SAO%20JOSE%20DOS%20PINHAIS%20-%20RESERVA%20CASA%20BLANCA%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:02.232826"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20ELIZIO%20FERREIRA%20DO%20NASCIMENTO%2CN.%20807%20APTO.%20402-%20BL%20A%2C%20177%2C%20TANGUA%2C%20ALMIRANTE%20TAMANDARE%20-%20COND%20RES%20PORTO%20TINGUI%20II%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:02.651661"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20SUBTENENTE%20ONOFRE%20MOREIRA%20DA%20ROCHA%2CN.%20830-C%20LT%2014%2C%20QD%2022%2C%20VILA%20GARCIA%2C%20PARANAGUA%20-%20COND%20RES%20LAR%20II%2C%20PR%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:03.746267"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20MARIA%20DE%20LOURDES%20BARBOSA%2CN.%20168%20CASA%2001%20LT%2003%20QD%2004%2C%20JARDIM%20COLIBRI%20II%2C%20CAMPO%20GRANDE%20-%20COND%20MARIA%20DE%20LOURDES%20DO%20COLIBRI%20II%2C%20MS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:05.431745"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA%20SENADOR%20ANTONIO%20MENDES%20CANALE%2CN.%201365%20APTO.%20303%20BL%2010%20PV%203%2C%20PIONEIROS%2C%20CAMPO%20GRANDE%20-%20CONDOMINIO%20PARQUE%20CASTELO%20DE%20GIBRALTAR%2C%20MS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:06.919060"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20CACHOEIRA%20DO%20CAMPO%2CN.%202062%20CS%2002%2C%20PORTAL%20CAIOBA%20II%2C%20CAMPO%20GRANDE%20-%20CONDOMINIO%20RESIDENCIAL%20CACHOEIRA%20DO%20CAMPO%20III%2C%20MS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:07.166836"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20VILLAS%20DE%20PALOMA%2CN.%2052%20APTO.%20334%20BL%20300%2C%20VILA%20CIDADE%20MORENA%2C%20CAMPO%20GRANDE%20-%20COND%20VILLAS%20DE%20PALOMA%20I%2C%20MS%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:08.278695"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/AV.%20GOVERNADOR%20DANTE%20MARTINS%20DE%20OLIVEIRA%2CN.%204300%20APTO.%20302%20BL%2030%20PV%203%2C%20CARUMBE%2C%20CUIABA%20-%20RESIDENCIAL%20CHAPADA%20DO%20MIRANTE%2C%20MT%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:09.755121"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DOUTOR%20SANTO%20SCARAVELLI%2CN.%20475%20APTO.%20201%20TR%2001%2C%2002%20VG%2028%2028-A%2C%20DESPRAIADO%2C%20CUIABA%20-%20COND%20SANTA%20MONICA%20RESIDENCE%2C%20MT%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:10.683628"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20DA%20ATLANTICA%2CN.%20237%20APTO.%20401%20BL%2012%2C%20VG%2061%2C%20GLORIA%2C%20VARZEA%20GRANDE%20-%20COND%20PARQUE%20CHAPADA%20DOS%20CAMPOS%2C%20MT%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:10.926077"
+    },
+    {
+      "type": "geocoding_error",
+      "message": "422 Client Error: Unknown for url: https://api.mapbox.com/geocoding/v5/mapbox.places/RUA%20JOAO%20BATISTA%20S%20DE%20OLIVEIRA%2CN.%201470%20APTO.%20203%20BL%2032%2C%20VG%20443%2C%20JARDIM%20GRAMADO%2C%20CUIABA%20-%20COND%20PQ%20CHAPADA%20MANTIQUEIRA%2C%20MT%2C%20Brasil.json?access_token=pk.eyJ1IjoibWljYXpldiIsImEiOiJjbThlN3FuMmIwbmxjMmtzYjkyMWkxbnk4In0.6WrnekCdRnlXciZgHrz8Zw&country=br&limit=1",
+      "item_id": null,
+      "timestamp": "2025-07-08T12:23:11.451898"
+    }
+  ]
+}
