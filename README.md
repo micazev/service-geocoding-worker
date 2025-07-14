@@ -19,6 +19,7 @@ pip install -r requirements.txt
 2. Edit `.env` and fill in your API token and folder paths as needed.
    - `INPUT_DIR`: directory with JSON files to geocode
    - `PROCESSED_DIR`: directory where processed files will be moved
+   - `REPROCESS_DIR`: directory for items that could not be geocoded
 
 
 ## 📥 Input Fields
@@ -36,6 +37,13 @@ To generate longitude and latitude, provide the following fields in your data:
 
 They are not included in this service, but you can use them to improve the geocoding results.
 The more details you provide, the more accurate the geocoding!
+
+The worker performs up to three geocoding attempts for each item:
+1. address + locality + state
+2. address + state
+3. locality + state
+
+Items still without coordinates are stored in a file prefixed with `reprocessar_` inside `REPROCESS_DIR` for later inspection.
 
 ## ▶️ Usage
 

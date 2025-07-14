@@ -77,7 +77,7 @@ class LocationService:
             params = {"access_token": self.mapbox_token, "country": "br", "limit": 1}
 
             self.analytics.increment_requests()
-            resp = requests.get(url, params=params)
+            resp = requests.get(url, params=params, timeout=10)
             resp.raise_for_status()
             data = resp.json()
 
@@ -94,6 +94,15 @@ class LocationService:
             self.geocoding_metrics["failed_by_state"][state] = (
                 self.geocoding_metrics["failed_by_state"].get(state, 0) + 1
             )
+            return None
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Network error geocoding {proc}: {e}")
+            self.analytics.increment_failure()
+            self.geocoding_metrics["error_types"][type(e).__name__] = (
+                self.geocoding_metrics["error_types"].get(type(e).__name__, 0) + 1
+            )
+            self.analytics.add_error("network_error", str(e))
             return None
 
         except Exception as e:
