@@ -3,7 +3,13 @@ import json
 import logging
 from pathlib import Path
 
-from config import MAPBOX_TOKEN, INPUT_DIR, PROCESSED_DIR, LOG_LEVEL
+from config import (
+    MAPBOX_TOKEN,
+    INPUT_DIR,
+    PROCESSED_DIR,
+    REPROCESS_DIR,
+    LOG_LEVEL,
+)
 from service import LocationService
 from utils.analytics_utils import ScraperAnalytics
 
@@ -23,6 +29,7 @@ def main():
     # Ensure input directory exists
     INPUT_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    REPROCESS_DIR.mkdir(parents=True, exist_ok=True)
 
 
     # Scan for JSON files
@@ -37,25 +44,41 @@ def main():
             continue
 
         updated = False
+        failed_items = []
         for item in items:
             # Skip if already has valid coords
             if item.get("latitude") and item.get("longitude"):
                 continue
 
-            # Build address
-            if all(k in item for k in ("endereco", "localidade", "estado")):
-                full_address = f"{item['endereco']}, {item['localidade']}"
-                coords = svc.geocode_address(full_address, item["estado"])
-                if coords:
-                    item["longitude"], item["latitude"] = coords
-                    updated = True
-                    logger.info(f"Geocoded {full_address} → {coords}")
-                else:
-                    logger.warning(f"Failed to geocode: {full_address}")
-            else:
+            # Check required fields
+            if not all(k in item for k in ("endereco", "localidade", "estado")):
                 svc.analytics.add_error(
                     "missing_fields", f"Missing fields in item: {item}"
                 )
+                failed_items.append(item)
+                continue
+
+            attempts = [
+                f"{item['endereco']}, {item['localidade']}",
+                item["endereco"],
+                item["localidade"],
+            ]
+
+            coords = None
+            for addr in attempts:
+                coords = svc.geocode_address(addr, item["estado"])
+                if coords:
+                    break
+
+            if coords:
+                item["longitude"], item["latitude"] = coords
+                updated = True
+                logger.info(f"Geocoded {addr} → {coords}")
+            else:
+                logger.warning(
+                    f"Failed to geocode after attempts: {item['endereco']} / {item['localidade']}"
+                )
+                failed_items.append(item)
 
         if updated:
             path.write_text(
@@ -63,6 +86,16 @@ def main():
                 encoding="utf-8"
             )
             logger.info(f"Updated file: {path.name}")
+
+        if failed_items:
+            repro_path = REPROCESS_DIR / f"reprocessar_{path.name}"
+            repro_path.write_text(
+                json.dumps(failed_items, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            logger.info(
+                f"Saved {len(failed_items)} items for reprocessing in {repro_path}"
+            )
 
         # Move processed file to processed directory
         dest = PROCESSED_DIR / path.name
